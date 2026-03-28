@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=250&section=header&text=Kim%20Bu-geon&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Embedded%20Software%20Engineer%20in%20Progress&descAlignY=55&descSize=20)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=250&section=header&text=Kim%20Bugeon&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Embedded%20Software%20Engineer%20in%20Progress&descAlignY=55&descSize=20)
 
 <div align="center">
 
@@ -44,10 +44,10 @@
 
 ## 🧩 Algorithm & Problem Solving
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kbg8146)](https://www.acmicpc.net/user/kbg8146)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kbg8146)](https://solved.ac/kbg8146)
+[![solved.ac Streak](http://mazandi.herokuapp.com/api?handle=kbg8146&theme=dark)](https://solved.ac/kbg8146)
 
 - BOJ 알고리즘 문제 풀이 (**C++**)
-- BFS/DFS · DP · 그리디 · 구현/시뮬레이션
 
 ---
 
@@ -55,13 +55,25 @@
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kbg8146&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12)](https://github.com/kbg8146)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kbg8146&layout=compact&theme=tokyonight&hide_border=true&border_radius=12)](https://github.com/kbg8146)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kbg8146&show_icons=true&theme=gruvbox&hide_border=true&border_radius=12)](https://github.com/kbg8146)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kbg8146&layout=compact&theme=gruvbox&hide_border=true&border_radius=12)](https://github.com/kbg8146)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kbg8146&theme=tokyonight&hide_border=true&border_radius=12)](https://github.com/kbg8146)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kbg8146&theme=gruvbox&hide_border=true&border_radius=12)](https://github.com/kbg8146)
 
 </div>
 
 ---
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=120&section=footer)
+## 📫 Contact
+
+<div align="center">
+
+[![Naver Mail](https://img.shields.io/badge/Naver_Mail-03C75A?style=for-the-badge&logo=naver&logoColor=white)](mailto:kbg8146@naver.com)
+[![Velog](https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@kbg8146)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kbg8146)
+
+</div>
+
+---
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=120&section=footer)
