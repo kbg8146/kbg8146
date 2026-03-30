@@ -40,6 +40,8 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 
+---
+
 ## 🚀 Projects
 
 | 프로젝트 | 설명 | 기술 스택 |
