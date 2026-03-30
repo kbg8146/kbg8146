@@ -40,6 +40,14 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 
+## 🚀 Projects
+
+| 프로젝트 | 설명 | 기술 스택 |
+|---------|------|-----------|
+| [GPS-Denied-INS-STM32](https://github.com/kbg8146/GPS-Denied-INS-STM32) | GPS 없이 IMU 기반 항법, 30m 경로 2m 이내 오차 | STM32F429, FreeRTOS, I2C, BNO055 |
+| [smart-nametag](https://github.com/kbg8146/smart-nametag) | IoT 스마트 명찰 시스템 | ESP32, MQTT, BLE, HTTP |
+| [pn-simulation](https://github.com/kbg8146/pn-simulation) | 비례항법 유도 시뮬레이션 | JavaScript, GitHub Pages |
+
 ---
 
 ## 🧩 Algorithm & Problem Solving
@@ -71,9 +79,8 @@
 
 <div align="center">
 
-[![Naver Mail](https://img.shields.io/badge/Naver_Mail-03C75A?style=for-the-badge&logo=naver&logoColor=white)](mailto:kbg8146@naver.com)
-[![Velog](https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@kbg8146)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kbg8146)
+[![Naver Mail](https://img.shields.io/badge/kbg8146@naver.com-03C75A?style=flat&logo=naver&logoColor=white)](mailto:kbg8146@naver.com)
+[![Velog](https://img.shields.io/badge/velog.io/@kbg8146-20C997?style=flat&logo=velog&logoColor=white)](https://velog.io/@kbg8146)
 
 </div>
 
