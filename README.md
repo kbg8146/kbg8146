@@ -12,7 +12,7 @@
 ## 👨‍💻 About Me
 
 - 🎓 **경북대학교 전자공학과 졸업**
-- 🛡️ **LIG넥스원 THE SSEN 임베디드 SW 스쿨 3기** 이수 중
+- 🛡️ **LIG넥스원 THE SSEN 임베디드 SW 스쿨 3기** — FreeRTOS, Zynq7000, Embedded Linux
 - ⚡ C/C++ 기반 임베디드 시스템 프로그래밍
 - 🎯 목표: **임베디드 소프트웨어 엔지니어**
 
