@@ -44,8 +44,12 @@
 
 ## 🧩 Algorithm & Problem Solving
 
+<div align="center">
+
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kbg8146)](https://solved.ac/kbg8146)
 [![solved.ac Streak](http://mazandi.herokuapp.com/api?handle=kbg8146&theme=dark)](https://solved.ac/kbg8146)
+
+</div>
 
 - BOJ 알고리즘 문제 풀이 (**C++**)
 
@@ -55,10 +59,9 @@
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kbg8146&show_icons=true&theme=gruvbox&hide_border=true&border_radius=12)](https://github.com/kbg8146)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kbg8146&layout=compact&theme=gruvbox&hide_border=true&border_radius=12)](https://github.com/kbg8146)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kbg8146&hide_border=true&border_radius=12&background=F6F8FA&ring=F78166&fire=F78166&currStreakLabel=24292F&sideLabels=24292F&currStreakNum=24292F&sideNums=24292F&dates=57606A)](https://github.com/kbg8146)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kbg8146&theme=gruvbox&hide_border=true&border_radius=12)](https://github.com/kbg8146)
+<img src="https://github-readme-stats-sigma-taupe-39.vercel.app/api?username=kbg8146&show_icons=true&theme=swift&hide_border=true&border_radius=12" height="170"/> <img src="https://github-readme-stats-sigma-taupe-39.vercel.app/api/top-langs/?username=kbg8146&layout=compact&theme=swift&hide_border=true&border_radius=12" height="170"/>
 
 </div>
 
