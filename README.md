@@ -2,7 +2,9 @@
 
 **Embedded Software Engineer in Progress**
 
-경북대학교 전자공학과 · LIG넥스원 THE SSEN 임베디드 SW 스쿨 3기
+· 경북대학교 전자공학과
+
+· LIG넥스원 THE SSEN 임베디드 SW 스쿨 3기
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/kbg8146)
 [![Velog](https://img.shields.io/badge/Velog-20C997?style=flat&logo=velog&logoColor=white)](https://velog.io/@kbg8146)
@@ -74,10 +76,3 @@ C++ 기반 BOJ 문제 풀이 — BFS/DFS, DP, 분할정복, 그리디, 이분탐
 → [Algorithm Repository](https://github.com/kbg8146/algorithm)
 
 ---
-
-## GitHub Stats
-
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kbg8146&theme=default&hide_border=true" height="160"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kbg8146&layout=compact&hide_border=true" height="160"/>
-</div>
