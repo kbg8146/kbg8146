@@ -1,91 +1,83 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=250&section=header&text=Kim%20Bugeon&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Embedded%20Software%20Engineer%20in%20Progress&descAlignY=55&descSize=20)
+# Kim Bugeon
 
-<div align="center">
+**Embedded Software Engineer in Progress**
+
+경북대학교 전자공학과 · LIG넥스원 THE SSEN 임베디드 SW 스쿨 3기
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/kbg8146)
 [![Velog](https://img.shields.io/badge/Velog-20C997?style=flat&logo=velog&logoColor=white)](https://velog.io/@kbg8146)
-
-</div>
-
----
-
-## 👨‍💻 About Me
-
-- 🎓 **경북대학교 전자공학과 졸업**
-- 🛡️ **LIG넥스원 THE SSEN 임베디드 SW 스쿨 3기** — FreeRTOS, Zynq7000, Embedded Linux
-- ⚡ C/C++ 기반 임베디드 시스템 프로그래밍
-- 🎯 목표: **임베디드 소프트웨어 엔지니어**
+[![Email](https://img.shields.io/badge/kbg8146@naver.com-03C75A?style=flat&logo=naver&logoColor=white)](mailto:kbg8146@naver.com)
 
 ---
 
-## 🛠 Tech Stack
+## Projects
 
-### 💻 Languages
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+### GPS-Denied INS — STM32  
+> GPS 없이 IMU만으로 실내 항법을 수행하는 임베디드 시스템  
 
-### ⚙ Embedded Systems
-![STM32](https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00979D?style=flat)
-![Embedded Linux](https://img.shields.io/badge/Embedded_Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Zynq7000](https://img.shields.io/badge/Zynq--7000-E01F27?style=flat&logo=xilinx&logoColor=white)
+`STM32F429` `FreeRTOS` `I2C` `BNO055`
 
-### 🔌 Protocols & Tools
-![I2C](https://img.shields.io/badge/I2C-blue?style=flat)
-![SPI](https://img.shields.io/badge/SPI-blue?style=flat)
-![UART](https://img.shields.io/badge/UART-blue?style=flat)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+- 5개 FreeRTOS 태스크 설계 — Sensor, ADCS, Mission, Command, Telemetry
+- Mutex 기반 IMU 데이터 보호, Fault Recovery FSM 구현
+- I2C Clock Stretching 디버깅 → SDA Bus Lock-up 9-clock recovery 적용
+- **오차율 52% → 30m 경로 기준 2m 이내로 개선**
+
+→ [Repository](https://github.com/kbg8146/GPS-Denied-INS-STM32)
+
+### Smart Nametag — IoT  
+> ESP32 기반 스마트 명찰 시스템 (캡스톤)  
+
+`ESP32` `MQTT` `BLE` `HTTP`
+
+- ICD 문서 주도 작성 — JSON 필드 불일치 해결
+- 에러 로그 레벨 시스템 설계 (INFO/WARN/ERROR/FATAL)
+- **한국정보기술학회 동상 → 금상 수상**
+
+→ [Repository](https://github.com/kbg8146/smart-nametag)
+
+### PN Simulation  
+> 비례항법(PN) vs 순수추적 유도 알고리즘 비교 시뮬레이션  
+
+`JavaScript` `GitHub Pages`
+
+- Pure Pursuit, PN, Stanley 알고리즘 인터랙티브 시각화
+- 천궁 체계 영감 RC카 타겟 추적 프로젝트 기초 연구
+
+→ [Live Demo](https://kbg8146.github.io/pn-simulation) · [Repository](https://github.com/kbg8146/pn-simulation)
 
 ---
 
-## 🚀 Projects
+## Tech Stack
 
-| 프로젝트 | 설명 | 기술 스택 |
-|---------|------|-----------|
-| [GPS-Denied-INS-STM32](https://github.com/kbg8146/GPS-Denied-INS-STM32) | GPS 없이 IMU 기반 항법, 30m 경로 2m 이내 오차 | STM32F429, FreeRTOS, I2C, BNO055 |
-| [smart-nametag](https://github.com/kbg8146/smart-nametag) | IoT 스마트 명찰 시스템 | ESP32, MQTT, BLE, HTTP |
-| [pn-simulation](https://github.com/kbg8146/pn-simulation) | 비례항법 유도 시뮬레이션 | JavaScript, GitHub Pages |
+```
+Languages        C · C++ · Python
+MCU/SoC          STM32F4 · ESP32 · Zynq-7000
+RTOS             FreeRTOS (Task, Queue, Mutex, Semaphore)
+Embedded Linux   PetaLinux · Device Driver · TFTP/NFS Boot · Cross-Compilation
+Protocols        I2C · SPI · UART · MQTT · BLE
+Tools            Vivado · Vitis · STM32CubeIDE · VS Code · Git
+Build            CMake · Makefile · ARM GCC Toolchain
+```
 
 ---
 
-## 🧩 Algorithm & Problem Solving
+## Algorithm
 
 <div align="center">
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kbg8146)](https://solved.ac/kbg8146)
-[![solved.ac Streak](http://mazandi.herokuapp.com/api?handle=kbg8146&theme=dark)](https://solved.ac/kbg8146)
 
 </div>
 
-- BOJ 알고리즘 문제 풀이 (**C++**)
+C++ 기반 BOJ 문제 풀이 — BFS/DFS, DP, 분할정복, 그리디, 이분탐색, 백트래킹
+
+→ [Algorithm Repository](https://github.com/kbg8146/algorithm)
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kbg8146&hide_border=true&border_radius=12&background=F6F8FA&ring=F78166&fire=F78166&currStreakLabel=24292F&sideLabels=24292F&currStreakNum=24292F&sideNums=24292F&dates=57606A)](https://github.com/kbg8146)
-
-<img src="https://github-readme-stats-sigma-taupe-39.vercel.app/api?username=kbg8146&show_icons=true&theme=swift&hide_border=true&border_radius=12" height="170"/> <img src="https://github-readme-stats-sigma-taupe-39.vercel.app/api/top-langs/?username=kbg8146&layout=compact&theme=swift&hide_border=true&border_radius=12" height="170"/>
-
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=kbg8146&theme=default&hide_border=true" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kbg8146&layout=compact&hide_border=true" height="160"/>
 </div>
-
----
-
-## 📫 Contact
-
-<div align="center">
-
-[![Naver Mail](https://img.shields.io/badge/kbg8146@naver.com-03C75A?style=flat&logo=naver&logoColor=white)](mailto:kbg8146@naver.com)
-[![Velog](https://img.shields.io/badge/velog.io/@kbg8146-20C997?style=flat&logo=velog&logoColor=white)](https://velog.io/@kbg8146)
-
-</div>
-
----
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=120&section=footer)
