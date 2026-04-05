@@ -67,7 +67,8 @@ Build            CMake · Makefile · ARM GCC Toolchain
 
 <div align="center">
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kbg8146)](https://solved.ac/kbg8146)
+<img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=kbg8146" alt="Solved.ac Profile"/>
+<img src="http://mazandi.herokuapp.com/api?handle=kbg8146&theme=warm" alt="mazandi profile"/>
 
 </div>
 
