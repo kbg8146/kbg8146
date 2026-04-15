@@ -72,8 +72,16 @@ Build            CMake · Makefile · ARM GCC Toolchain
 
 </div>
 
+
 C++ 기반 BOJ 문제 풀이 — BFS/DFS, DP, 분할정복, 그리디, 이분탐색, 백트래킹
 
 → [Algorithm Repository](https://github.com/kbg8146/algorithm)
 
 ---
+## Github Stats
+<div align="center">
+  
+<img src="https://streak-stats.demolab.com?user=kbg8146&theme=dark"/>
+<img src="https://github-readme-stats.vercel.app/api?username=kbg8146&show_icons=true&theme=dark" alt="GitHub Stats"/>
+
+</div>
