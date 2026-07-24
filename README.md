@@ -2,9 +2,11 @@
 
 **Embedded Software Engineer in Progress**
 
-· 경북대학교 전자공학과
+· 경북대학교 전자공학부
 
 · LIG넥스원 THE SSEN 임베디드 SW 스쿨 3기
+
+. SSAFY(삼성청년SW·AI아카데미) 16기
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/kbg8146)
 [![Velog](https://img.shields.io/badge/Velog-20C997?style=flat&logo=velog&logoColor=white)](https://velog.io/@kbg8146)
@@ -14,7 +16,7 @@
 
 ## Projects
 
-### GPS-Denied INS — STM32  
+### GPS-Denied INS — STM32
 > GPS 없이 IMU만으로 실내 항법을 수행하는 임베디드 시스템  
 
 `STM32F429` `FreeRTOS` `I2C` `BNO055`
@@ -37,22 +39,24 @@
 
 → [Repository](https://github.com/kbg8146/smart-nametag)
 
-### PN Simulation  
-> 비례항법(PN) vs 순수추적 유도 알고리즘 비교 시뮬레이션  
+### 유도조종장치 모의환경 프로젝트
+>
 
-`JavaScript` `GitHub Pages`
+`Zynq` `FreeRTOS`
 
-- Pure Pursuit, PN, Stanley 알고리즘 인터랙티브 시각화
-- 천궁 체계 영감 RC카 타겟 추적 프로젝트 기초 연구
+- 다이어그램
+- ICD
+- GCU
+- 
 
-→ [Live Demo](https://kbg8146.github.io/pn-simulation) · [Repository](https://github.com/kbg8146/pn-simulation)
+### BMS 시스템
 
 ---
 
 ## Tech Stack
 
 ```
-Languages        C · C++ · Python
+Languages        C · C++
 MCU/SoC          STM32F4 · ESP32 · Zynq-7000
 RTOS             FreeRTOS (Task, Queue, Mutex, Semaphore)
 Embedded Linux   PetaLinux · Device Driver · TFTP/NFS Boot · Cross-Compilation
